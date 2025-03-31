@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package com.mycompany.condicionales_natha;
+
+/**
+ *
+ * @author Estudiantes
+ */
+public class Condicionales_natha {
+
+    public static void main(String[] args) {
+        String libros = "revistas";
+        
+    if (libros == "comics"){
+        System.out.println("cerrar comic");
+        System.out.println("guardar comic");
+        System.out.println("olvidarlo");
+    }else if (libros == "revistas"){
+        System.out.println("leer");
+        System.out.println("recortar");
+        System.out.println("ver imagenes");
+    }else{
+        System.out.println("es una novela");
+    }
+    }
+}
